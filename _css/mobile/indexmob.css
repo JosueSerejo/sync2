@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+
+body {
+        background: rgb(163, 151, 175);
+}
+
+
+main {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+
+}
+
+main img {
+    width: 20vw;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.botoes {
+    margin-top: 25%;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+
+
+#colab a {
+
+    text-decoration: none;
+    padding: 15px 90px;
+    background: rgb(103, 42, 163);
+    background: linear-gradient(135deg, rgba(103, 42, 163, 1) 35%, rgba(164, 46, 236, 1) 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 2px rgba(139, 27, 139, 0.644) ;
+    
+}
+
+
+#colab a:hover {
+
+    background: rgb(106, 90, 122);
+    background: linear-gradient(135deg, rgb(132, 98, 167) 35%, rgba(164, 46, 236, 1) 100%);
+
+}
+
+#adm a:hover {
+
+    background: rgb(106, 90, 122);
+    background: linear-gradient(135deg, rgb(132, 98, 167) 35%, rgba(164, 46, 236, 1) 100%);
+
+}
+
+
+
+#adm a {
+    text-decoration: none;
+    padding: 15px 80px;
+    background: rgb(103, 42, 163);
+    background: linear-gradient(135deg, rgba(103, 42, 163, 1) 35%, rgba(164, 46, 236, 1) 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 2px rgba(139, 27, 139, 0.644) ;
+
+}
+
+/* CELULARES */
+
+@media(max-width: 450px)
+{
+
+
+main {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+
+}
+
+main img {
+    width: 50vw;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.botoes {
+    margin-top: 50%;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+
+
+#colab a {
+
+    text-decoration: none;
+    padding: 15px 90px;
+    background: rgb(103, 42, 163);
+    background: linear-gradient(135deg, rgba(103, 42, 163, 1) 35%, rgba(164, 46, 236, 1) 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 2px rgba(139, 27, 139, 0.644) ;
+    
+}
+
+#colab a:hover {
+
+    background: rgb(106, 90, 122);
+    background: linear-gradient(135deg, rgb(132, 98, 167) 35%, rgba(164, 46, 236, 1) 100%);
+
+}
+
+#adm a:hover {
+
+    background: rgb(106, 90, 122);
+    background: linear-gradient(135deg, rgb(132, 98, 167) 35%, rgba(164, 46, 236, 1) 100%);
+
+}
+
+
+
+#adm a {
+    text-decoration: none;
+    padding: 15px 80px;
+    background: rgb(103, 42, 163);
+    background: linear-gradient(135deg, rgba(103, 42, 163, 1) 35%, rgba(164, 46, 236, 1) 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 2px rgba(139, 27, 139, 0.644) ;
+
+}
+
+}
+
+
+/* TABLETS */
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+
+
+    main img {
+        width: 30vw;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+
+
+}
+
+
+@media (min-width: 451px) and (max-width: 767px)
+{
+
+    main img {
+        width: 40vw;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+
+    .botoes {
+        margin-top: 50%;
+        text-align: center;
+        line-height: 100px;
+    
+    }
+
+
+}

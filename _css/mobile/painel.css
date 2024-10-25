@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+
+body {
+    background: linear-gradient(135deg, rgb(151, 143, 158) 35%, rgb(132, 70, 170) 100%);
+}
+
+main {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+main h4 {
+    text-align: center;
+}
+
+
+main p {
+    text-align: center;
+}
+
+
+section {
+    
+    width: 350px;
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+
+section p{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-style: bold;
+
+    padding: 20px 50px;
+}
+
+
